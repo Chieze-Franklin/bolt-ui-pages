@@ -1,0 +1,33 @@
+{
+  "name": "bolt-ui-pages",
+  "version": "1.0.0",
+  "description": "Installs the 'Pages' UI framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chieze-Franklin/bolt-ui-pages"
+  },
+  "author": "Chieze Franklin",
+  "bugs": {
+    "url": "https://github.com/Chieze-Franklin/bolt-ui-pages/issues"
+  },
+  "keywords": [
+    "bolt",
+    "ui",
+    "pages",
+    "bolt-ui-pages"
+  ],
+  "bolt": {
+    "displayName": "Bolt Pages UI Module",
+    "module": true,
+    "target": 0.2,
+    "public": {
+      "move": false,
+      "overwrite": true,
+      "clean": true,
+      "paths": [
+        "assets",
+        "pages"
+      ]
+    }
+  }
+}
