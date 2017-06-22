@@ -1,6 +1,6 @@
 {
   "name": "bolt-ui-pages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installs the 'Pages' UI framework",
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   "bolt": {
     "displayName": "Bolt Pages UI Module",
     "module": true,
-    "target": 0.2,
     "public": {
       "move": false,
       "overwrite": true,
